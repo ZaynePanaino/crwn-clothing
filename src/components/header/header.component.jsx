@@ -11,7 +11,18 @@ const Header = () => (
             <Logo className='logo' />
         </Link>
         <div className='options'>
-            <Link to='/shop'></Link>
+            <Link to='/shop'>
+        </Link>
+        <div className='options'>
+                <Link className='option' to='/shop'>
+                    SHOP
+                </Link>
+                <Link className='option' to='/shop'>
+                    CONTACT
+                </Link>
+            </div>
         </div>
     </div>
 )
+
+export default Header;
